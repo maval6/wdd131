@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="WDD131 - Dynamic Web Fundamentals - Massango V. Moukouelle">
+    <meta name="author" content="Massango V. Moukouelle">
+    <title>WDD 131 - Dynamic Web Fundamentals - Massango V. Moukouelle</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>    
+
 </head>
 <body>
-    WDD131 Hello World
-    
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Massango V. Moukouelle</h1>
+        <nav>
+            <a href="https://www.linkedin.com/in/maval06">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p13#p13">Scripture</a>
+            <a href="final-project/">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <div class="card-title">About Me</div>
+            <div class="card-content">
+                <img src="images/profile.jpg" alt="Massango Moukouelle portrait" width="200" height="250">
+                <p>My name is Massango, and I am a passionate web development student dedicated to creating functional and visually appealing websites. I enjoy exploring new technologies, learning programming languages, and solving complex challenges. In my free time, I love watching movies, reading, and discovering ways to grow both personally and professionally.</p>
+                <h3>Douala, Cameroon</h3>
+                <figure class="flag-container">
+                    <img src="images/cameroon-flag.png" alt="Country Flag">
+                    <figcaption>Cameroon Flag</figcaption>
+                </figure>
+                <div class="discrip">
+                    <p>Douala is the largest city in Cameroon and its economic capital, located on the Wouri River along the Atlantic coast. It is a bustling port city known for its vibrant trade, industrial activity, and cultural diversity. Douala serves as a major gateway to the country, hosting the largest port in Central Africa and Douala International Airport. Douala remains a dynamic hub for business and culture in the region.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Web Dev Resources</div>
+            <div class="content">
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                    <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                    <li><a href="https://github.com/">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Massango V. Moukouelle | Douala</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>

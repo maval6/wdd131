@@ -1,0 +1,185 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #1a4971;
+    color: white;
+    padding: 1rem 0 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2c3338;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #3d464d;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 1500px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0.5rem;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    background-color: #1b4a76;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+.card-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 180px; /* Text on the left, image on the right */
+    grid-template-rows: auto auto auto; /* Adjusts rows automatically */
+    gap: 1rem; /* Space between the text and image */
+    align-items: start; /* Ensures alignment at the top */
+    padding: 1rem;
+}
+
+
+
+.card-content img {
+    grid-column: 4; /* Image in the second column */
+    grid-row: 1 / span 1; /* Image spans only one row */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    max-width: 100%;
+    max-height: fit-content;
+}
+
+.card-content h3 {
+    grid-column: 1 / span 3; /* Spans the entire width */
+    grid-row: 2; /* Position in the first row */
+    text-align: center; /* Centers the text */
+    font-size: 1.25rem; /* Adjust font size */
+    font-weight: bold; /* Makes the title stand out */
+    margin: 0; /* Remove unnecessary margins */
+    padding-bottom: 0.5rem; /* Add space below the title */
+    border-bottom: 0.5px solid #333; /* Bottom border */
+}
+
+.card-content p {
+    grid-column: 1 / span 3; /* Paragraph in the first column */
+    grid-row: auto; /* Paragraphs stack naturally */
+    margin: 0.5rem 0 0; /* Adds space above the paragraph */
+    line-height: 1.6; /* Improves readability */
+}
+
+.card-content .flag-container {
+    grid-column: 1 / span 1; /* Image and caption in the left column */
+    grid-row: 3; /* Second row for the flag */
+    text-align: center; /* Center the flag and caption */
+}
+
+.card-content .flag-container img {
+    max-width: 150px; /* Make the flag responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Optional: Rounded corners */
+    vertical-align: middle;
+}
+
+.card-content .flag-container figcaption {
+    margin-top: 0.5rem; /* Space above the caption */
+    font-size: 0.9rem; /* Smaller font size */
+    color: #555; /* Muted color for caption */
+}
+
+.discrip {
+    grid-column: 2 / span 2; /* Place the paragraph in the right column */
+    grid-row: 3; /* Align the paragraph with the flag */
+    margin: 0; /* Remove margins */
+    line-height: 1.6; /* Improve readability */
+    font-size: 1rem; /* Adjust font size */
+    color: #333; /* Text color */
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto; /* Text on the left, image on the right */
+    grid-template-rows: 1fr 2fr  auto; /* Adjusts rows automatically */
+    gap: 1rem; /* Space between the text and image */
+    align-items: start; /* Ensures alignment at the top */
+    padding: 1rem;
+}
+
+ul {
+    grid-row: 2 / span 1;
+    list-style-position: inside;
+    margin-left: 1rem;
+    
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+ul a {
+    color: #1a4971;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1a4971;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+#lastModified {
+    color: lawngreen;
+}
