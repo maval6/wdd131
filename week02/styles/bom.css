@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    max-width: 420px;
+    margin: 2em auto;
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: navy;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+button {
+    background: navy;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+button:hover {
+    background: darkblue;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    background-color: #f0f0f0;
+}
+
+li button {
+    background: transparent;
+    color: red;
+    width: auto;
+    margin: 0;
+    padding: 0 0.5em;
+}
+
+li button:hover {
+    background: transparent;
+    color: darkred;
+}
