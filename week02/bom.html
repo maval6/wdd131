@@ -10,14 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/bom.css">
+    <script src="scripts/bom.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>📖 Book of Mormon - Top 10</h1>
+    <h1>📖 Book of Mormon - Top 10</h1>
+    <main>
+        <label for="favchap">Enter Book and Chapter: </label>
         <input type="text" id="favchap" placeholder="Alma 5">
-        <button>Add Chapter</button>
-        <ul class="list"></ul>
-    </div>
-    <script src="scripts/bom.js"></script>
+        <button type="submit">Add Chapter</button>
+        <ul id="list"></ul>
+    </main>
 </body>
 </html>
