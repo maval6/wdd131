@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Temples | WDD131</title>
+    <meta name="description" content="Enhanced temple album with filtering options.">
+    <meta name="author" content="Massango V. Moukouelle">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <nav>
+            <button class="hamburger-btn">☰</button>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2 id="menu-title">Temples</h2>
+        <div id="temple-container" class="grid-container"></div>
+    </main>
+
+    <footer>
+        <p>©<span id="year"></span> | Massango V. Moukouelle | Douala</p>
+        <p id="lastModified">Last Modification: </p>
+    </footer>
+</body>
+</html>
