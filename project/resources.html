@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD131 - Program Developer Club - Massango V. Moukouelle">
+    <meta name="author" content="Massango V. Moukouelle">
+    <title>Resources - Program Developer Club</title>
+    <link rel="stylesheet" href="styles/programdevclub.css">
+    <link rel="stylesheet" href="styles/resources.css">
+    <script src="scripts/resources.js" defer></script>
+</head>
+<body>
+    <!-- Header (same as other pages) -->
+    <header class="header">
+        <div class="header-logo">Program Developer Club</div>
+        <nav class="main-nav">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="resources.html" class="active">Resources</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search resources...">
+                <button type="button">🔍</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Resources Hero -->
+    <section class="page-hero">
+        <div class="hero-container">
+            <h1>Learning Resources</h1>
+            <p>Curated resources to help you grow as a developer</p>
+        </div>
+    </section>
+
+    <!-- Learning Paths -->
+    <section class="learning-paths">
+        <h2>Learning Paths</h2>
+        <div class="paths-grid">
+            <div class="path-card">
+                <h3>Web Development</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+                <ul class="path-modules">
+                    <li>HTML & CSS Basics</li>
+                    <li>JavaScript Fundamentals</li>
+                    <li>Frontend Frameworks</li>
+                    <li>Backend Development</li>
+                </ul>
+                <button class="button">Start Learning</button>
+            </div>
+            <div class="path-card">
+                <h3>Mobile Development</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+                <ul class="path-modules">
+                    <li>Mobile UI Design</li>
+                    <li>iOS Development</li>
+                    <li>Android Development</li>
+                    <li>Cross-platform Development</li>
+                </ul>
+                <button class="button">Start Learning</button>
+            </div>
+            <div class="path-card">
+                <h3>Data Science</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+                <ul class="path-modules">
+                    <li>Python Basics</li>
+                    <li>Data Analysis</li>
+                    <li>Machine Learning</li>
+                    <li>Data Visualization</li>
+                </ul>
+                <button class="button">Start Learning</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools & Resources -->
+    <section class="tools-resources">
+        <h2>Development Tools</h2>
+        <div class="tools-grid">
+            <div class="tool-card">
+                <h3>Code Editors</h3>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Sublime Text</li>
+                    <li>IntelliJ IDEA</li>
+                </ul>
+            </div>
+            <div class="tool-card">
+                <h3>Version Control</h3>
+                <ul>
+                    <li>Git Basics</li>
+                    <li>GitHub</li>
+                    <li>GitLab</li>
+                </ul>
+            </div>
+            <div class="tool-card">
+                <h3>Deployment</h3>
+                <ul>
+                    <li>Heroku</li>
+                    <li>Netlify</li>
+                    <li>Vercel</li>
+                </ul>
+            </div>
+            <div class="tool-card">
+                <h3>Testing</h3>
+                <ul>
+                    <li>Jest</li>
+                    <li>Mocha</li>
+                    <li>Cypress</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation -->
+    <section class="documentation">
+        <h2>Documentation & Guides</h2>
+        <div class="docs-grid">
+            <!-- Documentation items will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Community Resources -->
+    <section class="community-resources">
+        <h2>Community Resources</h2>
+        <div class="community-grid">
+            <div class="community-card">
+                <h3>Discord Community</h3>
+                <p>Join our active Discord community for real-time discussions and help.</p>
+                <a href="#" class="button">Join Discord</a>
+            </div>
+            <div class="community-card">
+                <h3>GitHub Repository</h3>
+                <p>Access our collection of code samples and projects.</p>
+                <a href="#" class="button">View Repository</a>
+            </div>
+            <div class="community-card">
+                <h3>YouTube Channel</h3>
+                <p>Watch tutorials and coding sessions from our community.</p>
+                <a href="#" class="button">Subscribe</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@programdevclub.org</p>
+            </div>
+            <div class="footer-membership">
+                <h3>Join Us</h3>
+                <a href="#" class="button">Become a Member</a>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Discord">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 4c0 0-3-1-6-1s-6 1-6 1"/>
+                            <path d="M9 4c0 0-3 1-6 1"/>
+                            <path d="M18 6h3v5c0 4-3 7-7 7s-7-3-7-7V6h3"/>
+                            <path d="M9 11h6"/>
+                        </svg>
+                    </a>
+                </div>              
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD131 - Program Developer Club - Massango V. Moukouelle">
+    <meta name="author" content="Massango V. Moukouelle">
+    <title>Program Developer Club</title>
+    <link rel="stylesheet" href="styles/programdevclub.css">
+    <script src="scripts/programdevclub.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-logo">Program Developer Club</div>
+        <nav class="main-nav">
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="events.html">Events</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button type="button">🔍</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Program Developer Club</h1>
+                <p>Building the future of technology together</p>
+                <div class="next-event">
+                    <h3>Next Event: Web Development Workshop</h3>
+                    <p>Date: March 1, 2025 | Time: 6:00 PM</p>
+                    <p>Location: Virtual Meeting Room</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="intro">
+        <div class="intro-container">
+            <div class="intro-content">
+                <h2>Empowering Developers Worldwide</h2>
+                <p>Program Developer Club is a vibrant community of developers, designers, and tech enthusiasts. 
+                   We foster collaboration, learning, and professional growth through workshops, 
+                   hackathons, and networking events.</p>
+            </div>
+            <div class="intro-image">
+                <img src="images/intro-image.webp" alt="Club activities">
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events">
+        <h2>This Week's Events</h2>
+        <div class="events-grid" id="eventsContainer">
+            <!-- Events will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Get Involved Section -->
+    <section class="get-involved">
+        <div class="involved-container">
+            <div class="involved-image">
+                <img src="images/getinvolve.webp" alt="Community collaboration">
+            </div>
+            <div class="involved-content">
+                <h2>Get Involved</h2>
+                <div class="social-links">
+                    <a href="#" class="social-link">Join our Discord Community</a>
+                    <a href="#" class="social-link">Follow us on GitHub</a>
+                    <a href="#" class="social-link">Connect on LinkedIn</a>
+                    <a href="#" class="social-link">Follow us on Twitter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore Section -->
+    <section class="explore">
+        <h2>Explore Further</h2>
+        <div class="explore-grid">
+            <div class="explore-card">
+                <h3>Our Forum</h3>
+                <p>Join discussions with fellow developers</p>
+            </div>
+            <div class="explore-card">
+                <h3>Learning Hub</h3>
+                <p>Access curated learning resources</p>
+            </div>
+            <div class="explore-card">
+                <h3>Resource Center</h3>
+                <p>Find tools and documentation</p>
+            </div>
+            <div class="explore-card">
+                <h3>Tech Webinars</h3>
+                <p>Watch expert presentations</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@programdevclub.org</p>
+            </div>
+            <div class="footer-membership">
+                <h3>Join Us</h3>
+                <a href="#" class="button">Become a Member</a>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Discord">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 4c0 0-3-1-6-1s-6 1-6 1"/>
+                            <path d="M9 4c0 0-3 1-6 1"/>
+                            <path d="M18 6h3v5c0 4-3 7-7 7s-7-3-7-7V6h3"/>
+                            <path d="M9 11h6"/>
+                        </svg>
+                    </a>
+                </div>               
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
